@@ -1,4 +1,4 @@
-import { forwardRef, Ref } from "react";
+import { forwardRef } from "react";
 import styles from "./Button.module.css";
 import classNames from "classnames";
 import { Link } from "react-router";

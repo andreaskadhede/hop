@@ -17,9 +17,9 @@ import LinkopingUniversity from "../../assets/partners/LinkopingUniversity.svg";
 import HochschuleWormsUniversity from "../../assets/partners/HochschuleWormsUniversity.svg";
 
 const Partners = forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
-   (props, ref) => {
+   () => {
       return (
-         <div ref={ref} className={classNames(styles.partners)}>
+         <div className={classNames(styles.partners)}>
             <div className={classNames(styles.row)}>
                <img src={AarhusUniversitet} alt="AarhusUniversitet" />
                <img src={TheOpenUniversity} alt="TheOpenUniversity" />

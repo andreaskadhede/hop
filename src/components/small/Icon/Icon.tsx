@@ -40,7 +40,6 @@ import thinkingBoblesBlue from "../../../assets/icons/ThinkingBoblesBlue.svg";
 import thinkingBoblesWhite from "../../../assets/icons/ThinkingBoblesWhite.svg";
 import fixToTheRightBlue from "../../../assets/icons/FixToTheRightBlue.svg";
 import fixToTheRightWhite from "../../../assets/icons/FixToTheRightWhite.svg";
-import classNames from "classnames";
 
 const iconMap: Record<IconProps["type"], { white: string; blue: string }> = {
    Expand: {

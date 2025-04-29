@@ -48,8 +48,8 @@ type BlogpostProps = {
    text: string;
 };
 
-const Blogpost = forwardRef<HTMLDivElement>(
-   ({ imageSrc, date, header2Text, text }: BlogpostProps, ref) => {
+const Blogpost = forwardRef<HTMLDivElement, BlogpostProps>(
+   ({ imageSrc, date, header2Text, text }, ref) => {
       return (
          <div ref={ref} className={classNames(styles.blogpost)}>
             <img src={imageSrc} alt="" className={classNames(styles.image)} />

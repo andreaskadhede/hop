@@ -1,4 +1,4 @@
-import { Children, forwardRef, Ref } from "react";
+import { forwardRef } from "react";
 import styles from "./IconWithText.module.css";
 import classNames from "classnames";
 import { Icon } from "../Icon/Icon";

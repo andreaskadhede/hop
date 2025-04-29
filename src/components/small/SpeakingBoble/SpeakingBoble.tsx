@@ -13,7 +13,7 @@ type SpeakingBobleProps = {
 };
 
 const SpeakingBoble = forwardRef<HTMLDivElement, SpeakingBobleProps>(
-   ({ headerContent, text, year, direction }, ref) => {
+   ({ headerContent, text, year, direction }) => {
       return (
          <div className={classNames(styles.event)}>
             <div className={classNames(styles.boble)}>

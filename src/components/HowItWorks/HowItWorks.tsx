@@ -3,8 +3,6 @@ import { IconWithText } from "../small/IconWithText/IconWithText";
 import classNames from "classnames";
 import { Header1 } from "../small/Header1/Header1";
 import { Header2 } from "../small/Header2/Header2";
-import { Icon } from "../small/Icon/Icon";
-import { p } from "react-router/dist/development/fog-of-war-oa9CGk10";
 
 type HowItWorksProps = {
    page?: "WISEflow" | "Originality";

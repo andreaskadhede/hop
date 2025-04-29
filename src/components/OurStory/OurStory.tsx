@@ -1,14 +1,10 @@
-import { forwardRef, useEffect, useState } from "react";
-import styles from "./OurStory.module.css";
-import classNames from "classnames";
-
+import { forwardRef } from "react";
 import { Header1 } from "../small/Header1/Header1";
-import { Header2 } from "../small/Header2/Header2";
 
 import arrow from "../../assets/arrow.svg";
 import { SpeakingBoble } from "../small/SpeakingBoble/SpeakingBoble";
 
-const OurStory = forwardRef<HTMLDivElement>(({}, ref) => {
+const OurStory = forwardRef<HTMLDivElement>(({}) => {
    return (
       <div>
          <div>

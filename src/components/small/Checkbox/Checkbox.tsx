@@ -6,7 +6,7 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import * as RadixCheckbox from "@radix-ui/react-checkbox";
 
 const Checkbox = forwardRef<HTMLButtonElement, RadixCheckbox.CheckboxProps>(
-   (props, ref) => {
+   () => {
       return (
          <>
             <RadixCheckbox.Root

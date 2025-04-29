@@ -1,4 +1,4 @@
-import { forwardRef, useEffect, useState } from "react";
+import { forwardRef } from "react";
 import styles from "./AboutAndBlog.module.css";
 import classNames from "classnames";
 
@@ -7,7 +7,7 @@ import { Button } from "../small/Button/Button";
 
 import { Blogpost, BlogpostData } from "../../components/Blogpost/Blogpost";
 
-const AboutAndBlog = forwardRef<HTMLDivElement>(({}, ref) => {
+const AboutAndBlog = forwardRef<HTMLDivElement>(({}) => {
    return (
       <div className={classNames(styles.aboutContainer)}>
          <div className={classNames(styles.about)}>

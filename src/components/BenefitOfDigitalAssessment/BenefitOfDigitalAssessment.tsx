@@ -1,8 +1,6 @@
 import styles from "./BenefitOfDigitalAssessment.module.css";
 import classNames from "classnames";
-import { Button } from "../small/Button/Button";
 import { Header1 } from "../small/Header1/Header1";
-import { Header2 } from "../small/Header2/Header2";
 import { Facts } from "../Facts/Facts";
 
 function BenefitOfDigitalAssessment() {

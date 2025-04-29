@@ -1,10 +1,9 @@
-import { forwardRef, useEffect, useState } from "react";
+import { forwardRef, useState } from "react";
 import styles from "./WhereWeWork.module.css";
 import classNames from "classnames";
 
 import { Header1 } from "../small/Header1/Header1";
 import { Header2 } from "../small/Header2/Header2";
-import { Button } from "../small/Button/Button";
 
 import clear from "../../assets/map/Clear.svg";
 import europe from "../../assets/map/Europe.svg";

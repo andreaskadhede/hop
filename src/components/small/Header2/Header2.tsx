@@ -1,4 +1,4 @@
-import { forwardRef, Ref } from "react";
+import { forwardRef } from "react";
 import styles from "./Header2.module.css";
 import classNames from "classnames";
 import { HeaderProps } from "../Header1/Header1";
