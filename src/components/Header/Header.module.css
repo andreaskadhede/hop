@@ -1,0 +1,52 @@
+.header {
+   padding: 1.5625rem 4rem;
+   color: var(--color-cobalt);
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 5px solid var(--color-cobalt);
+   position: fixed;
+   z-index: 1000;
+   width: 100dvw;
+   background-color: var(--color-white);
+}
+
+.navbar {
+   display: flex;
+   align-items: center;
+   gap: 6.25rem;
+}
+
+.menu {
+   display: flex;
+   align-items: flex-end;
+   gap: 6.25rem;
+   align-self: stretch;
+   list-style: none;
+}
+
+.menu a {
+   color: var(--color-cobalt);
+}
+
+.menu a:hover,
+.menu li:hover,
+.active {
+   text-decoration-line: underline;
+   text-decoration-thickness: 10%; /* 1.6px */
+}
+
+.dropdown {
+   width: 11.9375rem;
+   padding: 0.625rem;
+   flex-direction: column;
+   gap: 0.625rem;
+   position: absolute;
+   list-style: none;
+   background-color: var(--color-cobalt);
+   color: var(--color-white);
+}
+
+.dropdown a {
+   font-size: var(--font-size-14px);
+   color: var(--color-white);
+}

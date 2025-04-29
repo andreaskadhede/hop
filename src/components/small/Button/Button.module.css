@@ -1,0 +1,27 @@
+.button {
+   padding: calc(0.625rem - 2.5px);
+   border-radius: 0.3125rem;
+   text-wrap: nowrap;
+   background: var(--color-cobalt);
+   color: var(--color-white);
+   min-width: 4.5rem;
+   border: 5px solid var(--color-cobalt);
+}
+
+.inverted {
+   border-color: var(--color-white);
+   background: var(--color-white);
+   color: var(--color-cobalt);
+}
+
+.button:hover {
+   border-color: var(--color-cobalt);
+   background: var(--color-white);
+   color: var(--color-cobalt);
+}
+
+.inverted:hover {
+   border-color: var(--color-white);
+   background: var(--color-cobalt);
+   color: var(--color-white);
+}

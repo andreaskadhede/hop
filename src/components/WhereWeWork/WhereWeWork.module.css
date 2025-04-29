@@ -1,0 +1,37 @@
+.whereWeWork {
+   display: flex;
+   padding: 0rem 9.75rem;
+   flex-direction: column;
+   gap: 3.125rem;
+}
+
+.mapWithBoxes {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 7.5rem;
+}
+
+.areas {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 456px;
+}
+
+.area {
+   display: flex;
+   padding: 0.9375rem;
+   flex-direction: column;
+   gap: 0.625rem;
+   border: 5px solid var(--color-cobalt);
+}
+
+.area > p {
+   font-size: var(--font-size-12px);
+}
+
+.image {
+   object-fit: cover;
+   width: 34.5rem;
+   aspect-ratio: 1/1;
+}

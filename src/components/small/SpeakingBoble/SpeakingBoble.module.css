@@ -1,0 +1,55 @@
+.boble {
+   width: 15.625rem;
+   height: 14.66606rem;
+   position: relative;
+}
+
+.text {
+   display: flex;
+   height: 11rem;
+   padding: 0.75rem 1.41019rem;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 0.28206rem;
+   flex-shrink: 0;
+   text-overflow: ellipsis;
+
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+
+   display: flex;
+   width: 15.5rem;
+   height: 14.875rem;
+   padding: 0.625rem 1.5625rem 4.0625rem 1.5625rem;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 0.28206rem;
+   flex-shrink: 0;
+}
+
+.text h2 {
+   text-align: center;
+   font-size: 1rem;
+}
+
+.text p {
+   font-size: 0.75rem;
+   height: 100%;
+   width: 100%;
+
+   overflow: hidden;
+   text-align: center;
+   text-overflow: ellipsis;
+   line-clamp: 9;
+
+   overflow: hidden;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 9;
+   line-clamp: 9;
+   /* white-space: prewrap; */
+}

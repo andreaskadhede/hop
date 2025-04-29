@@ -1,0 +1,8 @@
+.header {
+   font-size: var(--font-size-22px);
+   font-weight: var(--font-weight-medium);
+}
+
+.white {
+   color: var(--color-white);
+}

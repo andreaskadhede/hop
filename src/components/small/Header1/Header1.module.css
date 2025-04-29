@@ -1,0 +1,10 @@
+.header {
+   font-size: var(--font-size-44px);
+   font-weight: var(--font-weight-bold);
+   color: var(--color-cobalt);
+   width: 100%;
+}
+
+.white {
+   color: var(--color-white);
+}

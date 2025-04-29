@@ -1,0 +1,64 @@
+.testimonialContainer {
+   display: flex;
+   width: 100vw;
+   padding: 6.25rem 15.75rem;
+   flex-direction: column;
+   align-items: center;
+   gap: 3.125rem;
+   background-color: var(--color-cobalt);
+}
+
+.testimonial {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1.5625rem;
+}
+
+.textAndImage {
+   display: flex;
+   align-items: center;
+   gap: 7.5rem;
+   width: 58.5rem;
+}
+
+.textblock {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   align-self: stretch;
+}
+
+.text {
+   display: flex;
+   flex-direction: column;
+   gap: 0.625rem;
+}
+
+.text > p {
+   color: var(--color-white);
+   font-size: var(--font-size-14px);
+}
+
+.image {
+   background-color: black;
+   height: 16rem;
+   aspect-ratio: 57/32;
+}
+
+.indicators {
+   display: flex;
+   gap: 0.65519rem;
+}
+
+.indicator {
+   width: 1.14656rem;
+   height: 1.14656rem;
+   border: solid 2.621px var(--color-white);
+   border-radius: 50%;
+}
+
+.active {
+   background-color: var(--color-white);
+}

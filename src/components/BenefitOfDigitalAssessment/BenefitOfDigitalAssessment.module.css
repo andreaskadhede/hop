@@ -1,0 +1,48 @@
+.benefitOfDigitalAssessment {
+   display: flex;
+   padding: 0rem 12.5rem;
+   flex-direction: column;
+   align-items: center;
+   gap: 6.25rem;
+   align-self: stretch;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.625rem;
+   align-self: stretch;
+   text-align: center;
+}
+
+.facts {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 3.125rem;
+}
+
+.condition {
+   color: var(--Final-Black, #000);
+   text-align: center;
+   font-family: Signika;
+   font-size: 1.375rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.quote {
+   display: flex;
+   width: 52.375rem;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   font-size: 1.375rem;
+}
+
+.quote p {
+   text-align: right;
+   font-size: 0.875rem;
+}

@@ -1,0 +1,25 @@
+.factsContainer {
+   display: flex;
+   padding: 0rem 12.5rem;
+   flex-direction: column;
+   align-items: center;
+   gap: 6.25rem;
+   align-self: stretch;
+   text-align: center;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.625rem;
+   align-self: stretch;
+}
+
+.facts {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1.5rem;
+   width: 100%;
+}

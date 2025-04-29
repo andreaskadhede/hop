@@ -1,0 +1,5 @@
+.separator {
+   width: calc(100% - 11rem);
+   height: 0.625rem;
+   background-color: var(--color-cobalt);
+}

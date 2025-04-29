@@ -1,0 +1,40 @@
+.WISEcon25 {
+   display: flex;
+   padding: 0rem 15.75rem;
+   gap: 7.5rem;
+}
+
+.image {
+   width: 26.375rem;
+   height: 25.25rem;
+   object-fit: cover;
+}
+
+.right {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   width: 360px;
+}
+
+.text {
+   display: flex;
+   flex-direction: column;
+   gap: 1.875rem;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+   gap: 0.625rem;
+}
+
+.info p {
+   font-size: var(--font-size-12px);
+}
+
+.bold {
+   margin-top: 1rem;
+   font-weight: var(--font-weight-semi-bold);
+}

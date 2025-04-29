@@ -1,0 +1,29 @@
+.wiseflowAndOriginality {
+   background-color: var(--color-cobalt);
+   width: 100%;
+   display: flex;
+   padding: 6.25rem 15.75rem;
+   align-items: center;
+   gap: 7.5rem;
+}
+
+.left {
+   display: flex;
+   flex-direction: column;
+   gap: 1.25rem;
+   align-items: center;
+}
+
+.text {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+}
+
+.wiseflowAndOriginality p {
+   color: var(--color-white);
+}
+
+.image {
+   width: 22.5rem;
+}

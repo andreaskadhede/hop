@@ -1,0 +1,14 @@
+.facts {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+   align-self: stretch;
+}
+
+.small {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   gap: auto;
+}
