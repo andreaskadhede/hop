@@ -44,7 +44,7 @@ function AboutUNIwisePage() {
         </div>
       </div>
       <WhereWeWork />
-      <img className={classNames(styles.heroImage)} src={GroupPhoto} alt="" />
+      <img className={classNames(styles.groupImage)} src={GroupPhoto} alt="" />
     </main>
   );
 }
