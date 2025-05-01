@@ -1,0 +1,39 @@
+.ourStory {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5625rem;
+  align-self: stretch;
+}
+
+.timeline {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+}
+
+.timelineContentTop {
+  display: flex;
+  padding: 0rem 1.25rem;
+  align-items: flex-start;
+  gap: 11.25rem;
+  align-self: stretch;
+  margin-bottom: -2.75rem;
+}
+
+.timelineContentBottom {
+  display: flex;
+  padding: 0rem 13.75rem;
+  align-items: flex-start;
+  gap: 11.25rem;
+  align-self: stretch;
+  margin-top: -2.75rem;
+}
