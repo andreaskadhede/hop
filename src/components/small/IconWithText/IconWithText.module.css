@@ -1,12 +1,11 @@
 .iconWithText {
-   text-align: center;
-   width: 13.90625rem;
+  text-align: center;
 }
 
 .horizontal {
-   display: flex;
-   width: 100%;
-   align-items: center;
-   gap: 0.625rem;
-   align-self: stretch;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
 }
