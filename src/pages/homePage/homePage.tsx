@@ -17,48 +17,46 @@ import { WISEflowAndOriginality } from "../../components/WiseflowAndOriginality/
 import { AboutAndBlog } from "../../components/AboutAndBlog/AboutAndBlog";
 
 function HomePage() {
-   return (
-      <main>
-         <TextBlockWithImage
-            headerContent="Hi, we're UNIwise"
-            imageSrc={UNIwiseVideo}>
-            <p style={{ fontSize: "var(--font-size-22px)" }}>
-               We help universities deliver secure and accessible digital
-               assessment with our end-to-end platform, WISEflow.
-            </p>
-         </TextBlockWithImage>
-         <WISEflowAndOriginality />
-         <WISEcon25 />
-         <Separator />
-         <div className={classNames(styles.factsContainer)}>
-            <div className={classNames(styles.header)}>
-               <Header1
-                  content="More effective and authentic assessment"
-                  center
-               />
-               <p>
-                  WISEflow supports and handles the full workflow of assessments
-                  across a wide range of formative and summative assessment
-                  types, supporting the transformation of the assessment and
-                  feedback lifecycle for students, test writers, assessors and
-                  administrators.
-               </p>
-            </div>
-            <div className={classNames(styles.facts)}>
-               <Facts page="home" small />
-               <Button
-                  content="Read more about WISEflow"
-                  path="/AboutWISEflow"></Button>
-            </div>
-            <Partners />
-         </div>
-         <Separator />
+  return (
+    <main style={{ paddingTop: "calc(3.125rem + 200px)" }}>
+      <TextBlockWithImage
+        headerContent="Hi, we're UNIwise"
+        imageSrc={UNIwiseVideo}
+      >
+        <p style={{ fontSize: "var(--font-size-22px)" }}>
+          We help universities deliver secure and accessible digital assessment
+          with our end-to-end platform, WISEflow.
+        </p>
+      </TextBlockWithImage>
+      <WISEflowAndOriginality />
+      <WISEcon25 />
+      <Separator />
+      <div className={classNames(styles.factsContainer)}>
+        <div className={classNames(styles.header)}>
+          <Header1 content="More effective and authentic assessment" center />
+          <p>
+            WISEflow supports and handles the full workflow of assessments
+            across a wide range of formative and summative assessment types,
+            supporting the transformation of the assessment and feedback
+            lifecycle for students, test writers, assessors and administrators.
+          </p>
+        </div>
+        <div className={classNames(styles.facts, "greyBox")}>
+          <Facts page="home" small />
+          <Button
+            content="Read more about WISEflow"
+            path="/AboutWISEflow"
+          ></Button>
+        </div>
+        <Partners />
+      </div>
+      <Separator />
 
-         <AboutAndBlog />
-         <Testimonials />
-         <ContactForm />
-      </main>
-   );
+      <AboutAndBlog />
+      <Testimonials />
+      <ContactForm />
+    </main>
+  );
 }
 
 export { HomePage };
