@@ -77,10 +77,13 @@ const MainCapabilities = ({ page }: MainCapabilitiesProps) => {
               <Header2 content={section.title} />
             </button>
             <p
-              style={{
-                height: isShowing === index ? "100%" : "0",
-                opacity: isShowing === index ? 1 : 0,
-              }}
+              // style={{
+              //   height: isShowing === index ? "100%" : "0",
+              //   opacity: isShowing === index ? 1 : 0,
+              // }}
+              className={classNames(styles.paragraph, {
+                [styles.show]: isShowing === index,
+              })}
             >
               {section.content}
             </p>

@@ -26,6 +26,18 @@
   gap: 0.3125rem;
 }
 
+.paragraph {
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  max-height: 0;
+  opacity: 0;
+}
+
+.show {
+  max-height: 200px;
+  opacity: 1;
+}
+
 .imageArea {
   padding: 4.6875rem 15.75rem 4.6875rem 4.5rem;
   border-radius: 1.5625rem 0rem 0rem 1.5625rem;
