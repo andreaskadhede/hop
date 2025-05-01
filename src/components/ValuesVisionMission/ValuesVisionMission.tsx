@@ -2,7 +2,6 @@ import { forwardRef } from "react";
 import styles from "./ValuesVisionMission.module.css";
 import classNames from "classnames";
 import { Header1 } from "../small/Header1/Header1";
-import { Header2 } from "../small/Header2/Header2";
 import { IconWithText } from "../small/IconWithText/IconWithText";
 
 import OurVisionVideo from "../../assets/placeholder/OurVisionVideo.svg";
