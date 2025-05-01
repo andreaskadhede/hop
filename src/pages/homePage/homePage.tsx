@@ -18,17 +18,21 @@ import { AboutAndBlog } from "../../components/AboutAndBlog/AboutAndBlog";
 
 function HomePage() {
   return (
-    <main style={{ paddingTop: "calc(3.125rem + 200px)" }}>
-      <TextBlockWithImage
-        headerContent="Hi, we're UNIwise"
-        imageSrc={UNIwiseVideo}
-      >
-        <p style={{ fontSize: "var(--font-size-22px)" }}>
-          We help universities deliver secure and accessible digital assessment
-          with our end-to-end platform, WISEflow.
-        </p>
-      </TextBlockWithImage>
-      <WISEflowAndOriginality />
+    <main>
+      <div>
+        <div className="greyFullBox">
+          <TextBlockWithImage
+            headerContent="Hi, we're UNIwise"
+            imageSrc={UNIwiseVideo}
+          >
+            <p style={{ fontSize: "var(--font-size-22px)" }}>
+              We help universities deliver secure and accessible digital
+              assessment with our end-to-end platform, WISEflow.
+            </p>
+          </TextBlockWithImage>
+        </div>
+        <WISEflowAndOriginality />
+      </div>
       <WISEcon25 />
       <Separator />
       <div className={classNames(styles.factsContainer)}>
