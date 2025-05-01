@@ -1,0 +1,36 @@
+.valuesVisionMission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.6875rem;
+}
+
+.values {
+  display: flex;
+  padding: 0rem 9.75rem;
+  align-items: center;
+  gap: 7.5rem;
+}
+
+.values .textArea {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5625rem;
+}
+
+.values .textArea b {
+  font-weight: var(--font-weight-bold);
+}
+
+.visionMission {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.vision,
+.mission {
+  display: flex;
+  width: 27.5vw;
+  flex-direction: column;
+  gap: 1.5625rem;
+}
