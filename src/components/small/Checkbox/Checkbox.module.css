@@ -1,22 +1,24 @@
 /* reset */
 button {
-   all: unset;
+  all: unset;
 }
 
 .checkbox {
-   border-radius: 0.3125rem;
-   border: 2.5px solid var(--color-cobalt);
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 1.25rem;
-   height: 1.25rem;
+  border-radius: 0.3125rem;
+  border: 2.5px solid var(--color-cobalt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .checkbox:hover {
-   background-color: var(--color-grey);
+  background-color: var(--color-grey);
 }
 
 .checkboxIndicator {
-   color: var(--color-cobalt);
+  color: var(--color-cobalt);
+  height: 1.1rem;
+  width: 0.9rem;
 }
