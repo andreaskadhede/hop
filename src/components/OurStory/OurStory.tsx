@@ -6,9 +6,9 @@ import arrow from "../../assets/arrow.svg";
 import { SpeakingBoble } from "./SpeakingBoble/SpeakingBoble";
 import classNames from "classnames";
 
-const OurStory = forwardRef<HTMLDivElement>(({}) => {
+const OurStory = forwardRef<HTMLDivElement>((_, ref) => {
   return (
-    <div className={classNames(styles.ourStory)}>
+    <div className={classNames(styles.ourStory)} ref={ref}>
       <div className={classNames(styles.text)}>
         <Header1 content="Our Story" center />
         <p>

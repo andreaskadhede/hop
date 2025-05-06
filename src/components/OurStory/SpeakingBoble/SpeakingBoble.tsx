@@ -13,13 +13,14 @@ type SpeakingBobleProps = {
 };
 
 const SpeakingBoble = forwardRef<HTMLDivElement, SpeakingBobleProps>(
-  ({ headerContent, text, year, direction }) => {
+  ({ headerContent, text, year, direction }, ref) => {
     return (
       <div
         style={{
           display: "flex",
           flexDirection: direction === "up" ? "column-reverse" : "column",
         }}
+        ref={ref}
       >
         <div className={classNames(styles.boble)}>
           <img
