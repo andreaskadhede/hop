@@ -1,4 +1,4 @@
-import { forwardRef } from "react";
+import { forwardRef, useEffect, useState } from "react";
 import styles from "./AboutAndBlog.module.css";
 import classNames from "classnames";
 
@@ -7,9 +7,27 @@ import { Button } from "../small/Button/Button";
 
 import { Blogpost, BlogpostData } from "../../components/Blogpost/Blogpost";
 
-const AboutAndBlog = forwardRef<HTMLDivElement>(({}) => {
+const AboutAndBlog = forwardRef<HTMLDivElement>((_, ref) => {
+  const [blogposts, setBlogposts] = useState<BlogpostData[]>([]);
+
+  useEffect(() => {
+    const fetchBlogposts = async () => {
+      try {
+        const response = await fetch(
+          "https://advanced-frontend-development.andreaskadhede.dk/wp-json/wp/v2/blogpost?acf_format=standard&orderby=date&order=asc&per_page=15"
+        );
+        const data = await response.json();
+        setBlogposts(data);
+      } catch (error) {
+        console.error("Error fetching blogposts:", error);
+      }
+    };
+
+    fetchBlogposts();
+  }, []);
+
   return (
-    <div className={classNames(styles.aboutContainer)}>
+    <div className={classNames(styles.aboutContainer)} ref={ref}>
       <div className={classNames(styles.about, "greySideBox")}>
         <Header1 content="About UNIwise"></Header1>
         <div className={classNames(styles.text)}>
@@ -36,8 +54,8 @@ const AboutAndBlog = forwardRef<HTMLDivElement>(({}) => {
       </div>
       <div className={classNames(styles.blog)}>
         <div className={classNames(styles.blogPosts)}>
-          {BlogpostData.map((post, index) => (
-            <Blogpost key={`blogpost${index}`} {...post} />
+          {blogposts.map((blogpost: BlogpostData, index: number) => (
+            <Blogpost key={`blogpost${index}`} blogpost={blogpost} />
           ))}
         </div>
         <Button content="Read more blogposts"></Button>

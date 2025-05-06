@@ -1,5 +1,3 @@
-"use client";
-
 import { ContactForm } from "../../components/ContactForm/ContactForm";
 import { Separator } from "../../components/Separator/Separator";
 import { Partners } from "../../components/Partners/Partners";
