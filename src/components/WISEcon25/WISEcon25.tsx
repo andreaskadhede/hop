@@ -9,7 +9,11 @@ import WISEcon from "../../assets/images/conference.svg";
 const WISEcon25 = () => {
   return (
     <div className={classNames(styles.WISEcon25)}>
-      <img src={WISEcon} alt="" className={classNames(styles.image)} />
+      <img
+        src={WISEcon}
+        alt="WISEcon conference"
+        className={classNames(styles.image)}
+      />
 
       <div className={classNames(styles.right)}>
         <div className={classNames(styles.text)}>

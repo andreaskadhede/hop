@@ -15,7 +15,10 @@ function AboutUNIwisePage() {
   return (
     <main style={{ paddingBottom: "0" }}>
       <div className={classNames(styles.hero)}>
-        <img src={RasmusAndSteffen} alt="" />
+        <img
+          src={RasmusAndSteffen}
+          alt="Rasmus and Steffen speaking at conference"
+        />
         <div className={classNames(styles.quote)}>
           <q>
             WISEflow is a powerful platform, but we know that technology isn’t
@@ -31,7 +34,7 @@ function AboutUNIwisePage() {
       <Separator />
       <OurStory />
       <div className={classNames(styles.whoWeAre)}>
-        <img src={Office} alt="" />
+        <img src={Office} alt="Picture taken of the office" />
         <div className={classNames(styles.text)}>
           <Header1 white content="Who We Are" />
           <p>
@@ -44,7 +47,11 @@ function AboutUNIwisePage() {
         </div>
       </div>
       <WhereWeWork />
-      <img className={classNames(styles.groupImage)} src={GroupPhoto} alt="" />
+      <img
+        className={classNames(styles.groupImage)}
+        src={GroupPhoto}
+        alt="Photo of the UNIwise staff"
+      />
     </main>
   );
 }

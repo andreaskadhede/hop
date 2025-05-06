@@ -34,7 +34,7 @@ const OurStory = forwardRef<HTMLDivElement>((_, ref) => {
             year={2022}
           />
         </div>
-        <img src={arrow} alt="" />
+        <img src={arrow} alt="timeline arrow" />
         <div className={classNames(styles.timelineContentBottom)}>
           <SpeakingBoble
             headerContent="Challenges begin to mount"

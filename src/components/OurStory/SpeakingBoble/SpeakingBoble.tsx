@@ -25,7 +25,7 @@ const SpeakingBoble = forwardRef<HTMLDivElement, SpeakingBobleProps>(
         <div className={classNames(styles.boble)}>
           <img
             src={taleBoble}
-            alt=""
+            alt="speaking bubble"
             className={classNames(
               styles.image,
               { [styles.up]: direction === "up" },

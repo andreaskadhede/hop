@@ -38,7 +38,7 @@ const ValuesVisionMission = forwardRef<
             and scalable technology.
           </IconWithText>
         </div>
-        <img src={OurVisionVideo} alt="" />
+        <img src={OurVisionVideo} alt="Our vision video placeholder" />
       </div>
 
       <div className={classNames(styles.visionMission, "greyBox")}>

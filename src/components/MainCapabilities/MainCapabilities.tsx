@@ -56,10 +56,12 @@ const sections: Section[] = [
 const MainCapabilities = ({ page }: MainCapabilitiesProps) => {
   const [isShowing, setIsShowing] = useState<number | null>(0);
   const [imageSrc, setImageSrc] = useState<string>(flow);
+  const [title, setTitle] = useState<string>(sections[0].title);
 
   const handleClick = (index: number, image: string) => {
     setIsShowing(isShowing === index ? 0 : index);
     setImageSrc(image);
+    setTitle(sections[index].title);
   };
 
   return page === "WISEflow" ? (
@@ -91,7 +93,7 @@ const MainCapabilities = ({ page }: MainCapabilitiesProps) => {
         ))}
       </div>
       <div className={classNames(styles.imageArea)}>
-        <img src={imageSrc} alt="" />
+        <img src={imageSrc} alt={title} />
       </div>
     </div>
   ) : page === "Originality" ? (
