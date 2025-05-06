@@ -1,6 +1,6 @@
 .mainCapabilities {
   display: flex;
-  padding: 0rem 0rem 0rem 9.75rem;
+  padding: 0rem 0rem 0rem var(--padding-156);
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 1.5625rem;
+  gap: var(--gap-25);
 }
 
 .section {
@@ -39,8 +39,8 @@
 }
 
 .imageArea {
-  padding: 4.6875rem 15.75rem 4.6875rem 4.5rem;
-  border-radius: 1.5625rem 0rem 0rem 1.5625rem;
+  padding: var(--padding-75) var(--padding-252) var(--padding-75) 4.5rem;
+  border-radius: var(--corner-25) 0rem 0rem var(--corner-25);
   background: var(--color-grey);
 }
 

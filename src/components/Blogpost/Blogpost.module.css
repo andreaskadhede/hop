@@ -1,28 +1,28 @@
 .blogpost {
-   display: flex;
-   align-items: center;
-   gap: 0.625rem;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-10);
 }
 
 .image {
-   display: flex;
-   width: 6.25rem;
-   height: 6.25rem;
-   background-size: cover;
+  display: flex;
+  width: 6.25rem;
+  height: 6.25rem;
+  background-size: cover;
 }
 
 .textBlock {
-   display: flex;
-   height: 3.4375rem;
-   flex-direction: column;
+  display: flex;
+  height: 3.4375rem;
+  flex-direction: column;
 }
 
 .blogpost p,
 .blogpost h2 {
-   overflow: hidden;
-   display: -webkit-box;
-   min-width: 18rem;
-   -webkit-box-orient: vertical;
-   -webkit-line-clamp: 1;
-   line-clamp: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  min-width: 18rem;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
 }

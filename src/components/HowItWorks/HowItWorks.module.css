@@ -1,30 +1,29 @@
 .howItWorks {
-   display: flex;
-   padding: 0rem 9.75rem;
-   align-items: flex-start;
-   gap: 7.5rem;
-   align-self: stretch;
+  display: flex;
+  padding: 0rem var(--padding-156);
+  align-items: flex-start;
+  gap: var(--gap-120);
+  align-self: stretch;
 }
 
 .textArea {
-   display: flex;
-   flex-direction: column;
-   gap: 1.5625rem;
-   flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-25);
+  flex: 1 1 0;
 }
 
 .text {
-   display: flex;
-   flex-direction: column;
-   gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .flow {
-   display: flex;
-   width: 34.5rem;
-   flex-direction: column;
-   align-items: center;
-
-   gap: 1rem;
-   flex: 1 1 0;
+  display: flex;
+  width: 34.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex: 1 1 0;
 }

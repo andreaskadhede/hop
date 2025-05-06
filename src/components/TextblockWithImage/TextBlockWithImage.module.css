@@ -1,31 +1,31 @@
 .textblock {
-   display: flex;
-   padding: 0rem 9.75rem;
-   gap: 7.5rem;
-   align-items: center;
-   width: 100%;
+  display: flex;
+  padding: 0rem var(--padding-156);
+  gap: var(--gap-120);
+  align-items: center;
+  width: 100%;
 }
 
 .textArea {
-   display: flex;
-   flex-direction: column;
-   min-width: 360px;
-   gap: 1.5625rem;
-   flex: 1 0 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 360px;
+  gap: var(--gap-25);
+  flex: 1 0 0;
 }
 
 .image img {
-   width: 100%;
-   object-fit: scale-down;
-   background-position: center;
+  width: 100%;
+  object-fit: scale-down;
+  background-position: center;
 }
 
 .textblock.left {
-   flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .image.small img {
-   width: 28.4375rem;
-   height: 20.625rem;
-   object-fit: cover;
+  width: 28.4375rem;
+  height: 20.625rem;
+  object-fit: cover;
 }

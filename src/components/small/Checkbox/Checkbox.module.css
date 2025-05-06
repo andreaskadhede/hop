@@ -4,7 +4,7 @@ button {
 }
 
 .checkbox {
-  border-radius: 0.3125rem;
+  border-radius: var(--corner-5);
   border: 2.5px solid var(--color-cobalt);
   display: flex;
   align-items: center;

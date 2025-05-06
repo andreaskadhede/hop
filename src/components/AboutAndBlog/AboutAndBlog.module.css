@@ -1,14 +1,14 @@
 .aboutContainer {
   display: flex;
-  padding: 0rem 9.75rem 0rem 0rem;
+  padding: 0rem var(--padding-156) 0rem 0rem;
   align-items: flex-start;
-  gap: 7.5rem;
+  gap: var(--gap-120);
 }
 
 .about {
   display: flex;
   flex-direction: column;
-  gap: 1.5625rem;
+  gap: var(--gap-25);
 }
 
 .about .text {
@@ -33,6 +33,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.625rem;
+  gap: var(--gap-10);
   align-self: stretch;
 }

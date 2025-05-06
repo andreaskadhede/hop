@@ -1,29 +1,29 @@
 .digitalAssessmentHub {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 4.6875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-75);
 }
 
 .container {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
-   gap: 4.6875rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: var(--gap-75);
 }
 
 .hub {
-   display: flex;
-   width: 18.75rem;
-   padding: 3rem;
-   flex-direction: column;
-   align-items: center;
-   gap: 1.25rem;
-   border: 5px solid var(--color-cobalt);
-   background: var(--color-white);
+  display: flex;
+  width: 18.75rem;
+  padding: 3rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  border: 5px solid var(--color-cobalt);
+  background: var(--color-white);
 }
 
 .hub p {
-   font-size: 0.875rem;
-   height: 100%;
+  font-size: var(--font-size-14px);
+  height: 100%;
 }

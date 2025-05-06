@@ -1,29 +1,29 @@
 .wiseflowAndOriginality {
-   background-color: var(--color-cobalt);
-   width: 100%;
-   display: flex;
-   padding: 6.25rem 15.75rem;
-   align-items: center;
-   gap: 7.5rem;
+  background-color: var(--color-cobalt);
+  width: 100%;
+  display: flex;
+  padding: var(--padding-100) var(--padding-252);
+  align-items: center;
+  gap: var(--gap-120);
 }
 
 .left {
-   display: flex;
-   flex-direction: column;
-   gap: 1.25rem;
-   align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
 }
 
 .text {
-   display: flex;
-   flex-direction: column;
-   gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .wiseflowAndOriginality p {
-   color: var(--color-white);
+  color: var(--color-white);
 }
 
 .image {
-   width: 22.5rem;
+  width: 22.5rem;
 }

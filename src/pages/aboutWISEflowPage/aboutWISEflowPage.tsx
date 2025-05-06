@@ -31,7 +31,9 @@ function AboutWISEflowPage() {
       <MainCapabilities page="WISEflow" />
       <div
         className="greyBox"
-        style={{ width: "calc(100vw - 9.75rem - 4.6875rem)" }}
+        style={{
+          width: "calc(100vw - var(--padding-156) - var(--padding-75))",
+        }}
       >
         <Facts page="WISEflow" />
       </div>

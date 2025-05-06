@@ -1,64 +1,64 @@
 .footer {
-   background-color: var(--color-cobalt);
-   display: flex;
-   padding: 4rem 8rem;
+  background-color: var(--color-cobalt);
+  display: flex;
+  padding: 4rem 8rem;
 }
 
 .footer * {
-   color: var(--color-white);
+  color: var(--color-white);
 }
 
 .information {
-   display: flex;
-   flex-direction: column;
-   gap: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
 .informationText {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
 }
 
 .contactInfo {
-   display: flex;
-   flex-direction: column;
-   gap: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-10);
 }
 
 .addresses {
-   display: flex;
-   gap: 0.3125rem;
-   flex-wrap: wrap;
+  display: flex;
+  gap: 0.3125rem;
+  flex-wrap: wrap;
 }
 
 address {
-   font-style: normal;
+  font-style: normal;
 }
 
 .socialMedia {
-   display: flex;
-   gap: 0.625rem;
+  display: flex;
+  gap: var(--gap-10);
 }
 
 .socialMedia .icon {
-   width: 1.79769rem;
-   height: 1.625rem;
+  width: 1.79769rem;
+  height: 1.625rem;
 }
 
 .menu {
-   display: flex;
-   gap: 3.125rem;
+  display: flex;
+  gap: var(--gap-50);
 }
 
 .menu ul {
-   list-style: none;
+  list-style: none;
 }
 
 .menu ul li a,
 .contactInfo a {
-   font-size: var(--font-size-12px);
-   text-decoration-line: underline;
-   text-wrap: nowrap;
+  font-size: var(--font-size-12px);
+  text-decoration-line: underline;
+  text-wrap: nowrap;
 }
