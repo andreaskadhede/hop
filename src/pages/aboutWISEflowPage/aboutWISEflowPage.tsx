@@ -18,6 +18,7 @@ function AboutWISEflowPage() {
           headerContent="WISEflow"
           subheaderContent="An end-to-end digital assessment platform"
           imageSrc={WISEflowVideo}
+          imageAlt="Video of WISEflow"
         >
           <p>
             UNIwise helps institutions transform the creation, management and

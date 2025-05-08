@@ -22,6 +22,7 @@ function HomePage() {
           <TextBlockWithImage
             headerContent="Hi, we're UNIwise"
             imageSrc={UNIwiseVideo}
+            imageAlt="Video of UNIwise"
           >
             <p style={{ fontSize: "var(--font-size-22px)" }}>
               We help universities deliver secure and accessible digital
