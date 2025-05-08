@@ -12,12 +12,14 @@ import testimonial3 from "../../assets/images/testimonial-3.svg";
 
 // Type definition for a single testimonial
 type Testimonial = {
+  /* header text */
   header2Text: string;
+  /* image source */
   imageSrc: string;
+  /* the text */
   text: string;
 };
 
-// You can still define your default testimonials data here or elsewhere
 const testimonialData: Testimonial[] = [
   {
     header2Text:

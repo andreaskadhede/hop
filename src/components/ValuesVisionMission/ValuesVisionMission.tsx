@@ -6,12 +6,7 @@ import { IconWithText } from "../small/IconWithText/IconWithText";
 
 import OurVisionVideo from "../../assets/placeholder/OurVisionVideo.svg";
 
-type ValuesVisionMissionProps = {};
-
-const ValuesVisionMission = forwardRef<
-  HTMLDivElement,
-  ValuesVisionMissionProps
->(() => {
+const ValuesVisionMission = forwardRef<HTMLDivElement>(() => {
   return (
     <div className={classNames(styles.valuesVisionMission)}>
       <div className={styles.values}>
