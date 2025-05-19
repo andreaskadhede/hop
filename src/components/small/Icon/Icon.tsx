@@ -42,128 +42,128 @@ import fixToTheRightBlue from "../../../assets/icons/FixToTheRightBlue.svg";
 import fixToTheRightWhite from "../../../assets/icons/FixToTheRightWhite.svg";
 
 const iconMap: Record<IconProps["type"], { white: string; blue: string }> = {
-   Expand: {
-      white: expandWhite,
-      blue: expandBlue,
-   },
-   Settings: {
-      white: settingsWhite,
-      blue: settingsBlue,
-   },
-   Secure: {
-      white: secureWhite,
-      blue: secureBlue,
-   },
-   ThinkingBobles: {
-      white: thinkingBoblesWhite,
-      blue: thinkingBoblesBlue,
-   },
-   Flow: {
-      white: flowWhite,
-      blue: flowBlue,
-   },
-   Statistics: {
-      white: statisticsWhite,
-      blue: statisticsBlue,
-   },
-   Learning: {
-      white: learningWhite,
-      blue: learningBlue,
-   },
-   Devices: {
-      white: devicesWhite,
-      blue: devicesBlue,
-   },
-   Building: {
-      white: buildingWhite,
-      blue: buildingBlue,
-   },
-   Cloud: {
-      white: cloudWhite,
-      blue: cloudBlue,
-   },
-   Pencil: {
-      white: pencilWhite,
-      blue: pencilBlue,
-   },
-   GraduationCap: {
-      white: graduationCapWhite,
-      blue: graduationCapBlue,
-   },
-   Support: {
-      white: supportWhite,
-      blue: supportBlue,
-   },
-   Handshake: {
-      white: handshakeWhite,
-      blue: handshakeBlue,
-   },
-   Gears: {
-      white: gearsWhite,
-      blue: gearsBlue,
-   },
-   CheckBobles: {
-      white: checkBoblesWhite,
-      blue: checkBoblesBlue,
-   },
-   CheckBoble: {
-      white: checkBobleWhite,
-      blue: checkBobleBlue,
-   },
-   StopWatch: {
-      white: stopWatchWhite,
-      blue: stopWatchBlue,
-   },
-   Checklist: {
-      white: checklistWhite,
-      blue: checklistBlue,
-   },
-   FixToTheRight: {
-      white: fixToTheRightWhite,
-      blue: fixToTheRightBlue,
-   },
+  Expand: {
+    white: expandWhite,
+    blue: expandBlue,
+  },
+  Settings: {
+    white: settingsWhite,
+    blue: settingsBlue,
+  },
+  Secure: {
+    white: secureWhite,
+    blue: secureBlue,
+  },
+  ThinkingBobles: {
+    white: thinkingBoblesWhite,
+    blue: thinkingBoblesBlue,
+  },
+  Flow: {
+    white: flowWhite,
+    blue: flowBlue,
+  },
+  Statistics: {
+    white: statisticsWhite,
+    blue: statisticsBlue,
+  },
+  Learning: {
+    white: learningWhite,
+    blue: learningBlue,
+  },
+  Devices: {
+    white: devicesWhite,
+    blue: devicesBlue,
+  },
+  Building: {
+    white: buildingWhite,
+    blue: buildingBlue,
+  },
+  Cloud: {
+    white: cloudWhite,
+    blue: cloudBlue,
+  },
+  Pencil: {
+    white: pencilWhite,
+    blue: pencilBlue,
+  },
+  GraduationCap: {
+    white: graduationCapWhite,
+    blue: graduationCapBlue,
+  },
+  Support: {
+    white: supportWhite,
+    blue: supportBlue,
+  },
+  Handshake: {
+    white: handshakeWhite,
+    blue: handshakeBlue,
+  },
+  Gears: {
+    white: gearsWhite,
+    blue: gearsBlue,
+  },
+  CheckBobles: {
+    white: checkBoblesWhite,
+    blue: checkBoblesBlue,
+  },
+  CheckBoble: {
+    white: checkBobleWhite,
+    blue: checkBobleBlue,
+  },
+  StopWatch: {
+    white: stopWatchWhite,
+    blue: stopWatchBlue,
+  },
+  Checklist: {
+    white: checklistWhite,
+    blue: checklistBlue,
+  },
+  FixToTheRight: {
+    white: fixToTheRightWhite,
+    blue: fixToTheRightBlue,
+  },
 };
 
 export type IconProps = {
-   type:
-      | "Expand"
-      | "Secure"
-      | "Settings"
-      | "ThinkingBobles"
-      | "Flow"
-      | "Statistics"
-      | "Learning"
-      | "Devices"
-      | "Building"
-      | "Cloud"
-      | "Pencil"
-      | "GraduationCap"
-      | "Support"
-      | "Handshake"
-      | "Gears"
-      | "CheckBobles"
-      | "CheckBoble"
-      | "StopWatch"
-      | "Checklist"
-      | "FixToTheRight";
-   alt?: string;
-   color?: "white" | "blue";
-   width?: number;
+  type:
+    | "Expand"
+    | "Secure"
+    | "Settings"
+    | "ThinkingBobles"
+    | "Flow"
+    | "Statistics"
+    | "Learning"
+    | "Devices"
+    | "Building"
+    | "Cloud"
+    | "Pencil"
+    | "GraduationCap"
+    | "Support"
+    | "Handshake"
+    | "Gears"
+    | "CheckBobles"
+    | "CheckBoble"
+    | "StopWatch"
+    | "Checklist"
+    | "FixToTheRight";
+  alt?: string;
+  color?: "white" | "blue";
+  style?: React.CSSProperties;
 };
 
 const Icon = forwardRef<HTMLImageElement, IconProps>(
-   ({ type, alt = type, color = "blue", width }, ref) => {
-      const src = iconMap[type]?.[color];
+  ({ type, alt = type, color = "blue", style }, ref) => {
+    const src = iconMap[type]?.[color];
 
-      if (!src) {
-         console.warn(`Missing icon for type: "${type}" and color: "${color}"`);
-         return null;
-      }
+    if (!src) {
+      console.warn(`Missing icon for type: "${type}" and color: "${color}"`);
+      return null;
+    }
 
-      return (
-         <img ref={ref} src={src} alt={alt} style={{ width: `${width}rem` }} />
-      );
-   }
+    return (
+      <img ref={ref} src={src} alt={alt} style={{ ...style, width: "100%" }} />
+    );
+  }
 );
 
 export { Icon };

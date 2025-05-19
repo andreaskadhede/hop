@@ -38,7 +38,13 @@ const IconWithText = forwardRef<HTMLDivElement, IconWithTextProps>(
           [styles.horizontal]: horizontal,
         })}
       >
-        <Icon type={type} width={horizontal ? 4.375 : 9.375}></Icon>
+        <Icon
+          type={type}
+          style={{
+            maxWidth: horizontal ? "4.375rem" : "9.375rem",
+            minWidth: horizontal ? "0" : "6rem",
+          }}
+        ></Icon>
         <p style={{ textAlign: horizontal ? "left" : "center" }}>{children}</p>
       </div>
     );
