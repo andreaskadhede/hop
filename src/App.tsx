@@ -1,11 +1,12 @@
-import { Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
-import { HomePage } from "./pages/homePage/homePage.js";
+import { HomePage } from "./pages/homePage/homePage";
 // import { AboutOriginalityPage } from "./pages/aboutOriginalityPage/aboutOriginalityPage.js";
-import { AboutUNIwisePage } from "./pages/aboutUNIwisePage/aboutUNIwisePage.js";
-import { AboutWISEflowPage } from "./pages/aboutWISEflowPage/aboutWISEflowPage.js";
+import { AboutUNIwisePage } from "./pages/aboutUNIwisePage/aboutUNIwisePage";
+import { AboutWISEflowPage } from "./pages/aboutWISEflowPage/aboutWISEflowPage";
 import ScrollToTop from "./components/small/ScrolToTop.js";
+import { NotFoundPage } from "./pages/NotFoundPage/NotFoundPage";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         {/* <Route path="/AboutOriginality" element={<AboutOriginalityPage />} /> */}
         <Route path="/AboutUNIwise" element={<AboutUNIwisePage />} />
         <Route path="/AboutWISEflow" element={<AboutWISEflowPage />} />
-        <Route path="*" element={<Navigate to="/" />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

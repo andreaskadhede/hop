@@ -2,6 +2,7 @@
   background-color: var(--color-cobalt);
   display: flex;
   padding: 4rem 8rem;
+  justify-content: space-between;
 }
 
 .footer * {
@@ -30,7 +31,7 @@
 .addresses {
   display: flex;
   gap: 0.3125rem;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 address {

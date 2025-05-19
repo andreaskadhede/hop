@@ -9,6 +9,7 @@
 .textArea {
   display: flex;
   flex-direction: column;
+  align-items: start;
   min-width: 360px;
   gap: var(--gap-25);
   flex: 1 0 0;

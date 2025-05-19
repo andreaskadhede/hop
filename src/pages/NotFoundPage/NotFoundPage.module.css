@@ -1,0 +1,19 @@
+.notFoundPage {
+  all: unset;
+  min-height: calc(100vh - 104px - 300px);
+  display: flex;
+  padding-top: 104px;
+  align-items: center;
+  justify-content: center;
+}
+
+.notFoundPage article {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-50) var(--padding-75);
+  border-radius: var(--corner-25);
+  background: var(--color-grey);
+  gap: 2rem;
+  text-align: center;
+  align-items: center;
+}
