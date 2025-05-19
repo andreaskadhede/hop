@@ -32,7 +32,7 @@ const SpeakingBoble = forwardRef<HTMLDivElement, SpeakingBobleProps>(
               { [styles.down]: direction === "down" }
             )}
           />
-          <div
+          <section
             className={classNames(
               styles.text,
               { [styles.up]: direction === "up" },
@@ -41,7 +41,7 @@ const SpeakingBoble = forwardRef<HTMLDivElement, SpeakingBobleProps>(
           >
             <Header2 content={headerContent} />
             <p>{text}</p>
-          </div>
+          </section>
         </div>
         <Header1 right content={year?.toString()} />
       </div>

@@ -33,9 +33,9 @@ function AboutUNIwisePage() {
       <ValuesVisionMission />
       <Separator />
       <OurStory />
-      <div className={classNames(styles.whoWeAre)}>
+      <section className={classNames(styles.whoWeAre)}>
         <img src={Office} alt="Picture taken of the office" />
-        <div className={classNames(styles.text)}>
+        <article className={classNames(styles.text)}>
           <Header1 white content="Who We Are" />
           <p>
             UNIwise is an established European edtech company that provides a
@@ -44,8 +44,8 @@ function AboutUNIwisePage() {
             support higher-education institutions on their journey of the
             transformation of their assessment practices.  
           </p>
-        </div>
-      </div>
+        </article>
+      </section>
       <WhereWeWork />
       <img
         className={classNames(styles.groupImage)}

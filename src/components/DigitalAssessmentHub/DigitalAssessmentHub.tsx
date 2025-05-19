@@ -6,18 +6,18 @@ import { Header2 } from "../small/Header2/Header2";
 
 function DigitalAssessmentHub() {
   return (
-    <div className={classNames(styles.digitalAssessmentHub)}>
+    <section className={classNames(styles.digitalAssessmentHub)}>
       <Header1 content="Digital assessment hub" center />
       <div className={classNames(styles.container)}>
-        <div className={classNames(styles.hub)}>
+        <section className={classNames(styles.hub)}>
           <Header2 content="Getting started with digital assessment" />
           <p>
             There are many reasons for transitioning to a digital assessment
             platform at your institution…
           </p>
           <Button content="Learn more" />
-        </div>
-        <div className={classNames(styles.hub)}>
+        </section>
+        <section className={classNames(styles.hub)}>
           <Header2 content="The change management process" />
           <p>
             Let's break down the process of transitioning to digital assessment
@@ -25,8 +25,8 @@ function DigitalAssessmentHub() {
             success of initiatives…
           </p>
           <Button content="Learn more" />
-        </div>
-        <div className={classNames(styles.hub)}>
+        </section>
+        <section className={classNames(styles.hub)}>
           <Header2 content="Student satisfaction and digital assessment" />
           <p>
             Institutions across the globe are increasingly moving towards an
@@ -34,16 +34,16 @@ function DigitalAssessmentHub() {
             increase student satisfaction in a number of ways…
           </p>
           <Button content="Learn more" />
-        </div>
-        <div className={classNames(styles.hub)}>
+        </section>
+        <section className={classNames(styles.hub)}>
           <Header2 content="Easing the administrative burden" />
           <p>
             How does transitioning to a digital assessment platform lighten the
             administrative load for university staff?
           </p>
           <Button content="Learn more" />
-        </div>
-        <div className={classNames(styles.hub)}>
+        </section>
+        <section className={classNames(styles.hub)}>
           <Header2 content="Data privacy and digital assessment" />
           <p>
             It’s important to understand how digital assessment platforms
@@ -51,8 +51,8 @@ function DigitalAssessmentHub() {
             and students alike…
           </p>
           <Button content="Learn more" />
-        </div>
-        <div className={classNames(styles.hub)}>
+        </section>
+        <section className={classNames(styles.hub)}>
           <Header2 content="Designing effective digital assessment" />
           <p>
             How does one do digital assessment well? Based on our knowledge of
@@ -60,9 +60,9 @@ function DigitalAssessmentHub() {
             here's a rundown of considerations to keep in mind…
           </p>
           <Button content="Learn more" />
-        </div>
+        </section>
       </div>
-    </div>
+    </section>
   );
 }
 

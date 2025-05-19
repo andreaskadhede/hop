@@ -10,7 +10,7 @@ const ValuesVisionMission = forwardRef<HTMLDivElement>(() => {
   return (
     <div className={classNames(styles.valuesVisionMission)}>
       <div className={styles.values}>
-        <div className={styles.textArea}>
+        <section className={styles.textArea}>
           <Header1 content="Values" />
 
           <IconWithText type="Handshake" horizontal>
@@ -32,27 +32,27 @@ const ValuesVisionMission = forwardRef<HTMLDivElement>(() => {
             <b>Accessible Software</b> – We prioritize user-friendly, inclusive,
             and scalable technology.
           </IconWithText>
-        </div>
+        </section>
         <img src={OurVisionVideo} alt="Our vision video placeholder" />
       </div>
 
       <div className={classNames(styles.visionMission, "greyBox")}>
-        <div className={styles.vision}>
+        <section className={styles.vision}>
           <Header1 content="Vision" />
           <p>
             To be the leading force in digital exams and assessment, setting the
             global standard for innovation, trust, and seamless educational
             technology.
           </p>
-        </div>
-        <div className={styles.mission}>
+        </section>
+        <section className={styles.mission}>
           <Header1 content="Mission" />
           <p>
             To empower educational institutions by providing innovative,
             reliable, and user-friendly digital assessment solutions that
             enhance the efficiency and integrity of the examination process.
           </p>
-        </div>
+        </section>
       </div>
     </div>
   );

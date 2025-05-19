@@ -45,11 +45,11 @@ const TextBlockWithImage = forwardRef<HTMLDivElement, TextBlockWithImageProps>(
           [styles.left]: imagePlacement === "left",
         })}
       >
-        <div className={classNames(styles.textArea)}>
+        <section className={classNames(styles.textArea)}>
           {headerContent && <Header1 content={headerContent} />}
           {subheaderContent && <Header2 content={subheaderContent} />}
           {children}
-        </div>
+        </section>
         <div
           className={classNames(styles.image, {
             [styles.small]: imageSize === "small",

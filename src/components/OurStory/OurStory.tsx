@@ -9,13 +9,13 @@ import classNames from "classnames";
 const OurStory = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div className={classNames(styles.ourStory)} ref={ref}>
-      <div className={classNames(styles.text)}>
+      <section className={classNames(styles.text)}>
         <Header1 content="Our Story" center />
         <p>
           Our founders met in 2010, when they were both working at the
           University of Aarhus.
         </p>
-      </div>
+      </section>
       <div className={classNames(styles.timeline)}>
         <div className={classNames(styles.timelineContentTop)}>
           <SpeakingBoble

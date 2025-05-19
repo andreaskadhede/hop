@@ -6,7 +6,7 @@ import { Facts } from "../Facts/Facts";
 function BenefitOfDigitalAssessment() {
   return (
     <div className={classNames(styles.benefitOfDigitalAssessment)}>
-      <div className={classNames(styles.header)}>
+      <section className={classNames(styles.header)}>
         <Header1 content="Benefit of Digital Assessment" center />
         <p>
           WISEflow supports and handles the full workflow of assessments across
@@ -14,7 +14,7 @@ function BenefitOfDigitalAssessment() {
           the transformation of the assessment and feedback lifecycle for
           students, test writers, assessors and administrators.
         </p>
-      </div>
+      </section>
       <div className={classNames(styles.facts)}>
         <div className="greyBox">
           <Facts page="WISEflow" benefitSection />

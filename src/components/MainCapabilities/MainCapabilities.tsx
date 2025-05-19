@@ -66,7 +66,7 @@ const MainCapabilities = ({ page }: MainCapabilitiesProps) => {
 
   return page === "WISEflow" ? (
     <div className={classNames(styles.mainCapabilities)}>
-      <div className={classNames(styles.textArea)}>
+      <section className={classNames(styles.textArea)}>
         <Header1 content="Main Capabilities" />
         {sections.map((section, index) => (
           <div
@@ -91,7 +91,7 @@ const MainCapabilities = ({ page }: MainCapabilitiesProps) => {
             </p>
           </div>
         ))}
-      </div>
+      </section>
       <div className={classNames(styles.imageArea)}>
         <img src={imageSrc} alt={title} />
       </div>

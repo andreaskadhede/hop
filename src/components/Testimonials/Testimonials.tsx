@@ -55,7 +55,7 @@ const Testimonials = forwardRef<HTMLDivElement>(({}, ref) => {
 
   return (
     <div className={classNames(styles.testimonialContainer)} ref={ref}>
-      <div className={classNames(styles.testimonial)}>
+      <article className={classNames(styles.testimonial)}>
         <Header1 content="Testimonials" white center />
         <div className={classNames(styles.textAndImage)}>
           <div className={classNames(styles.textblock)}>
@@ -72,7 +72,7 @@ const Testimonials = forwardRef<HTMLDivElement>(({}, ref) => {
             }}
           />
         </div>
-      </div>
+      </article>
       {/* Indicators */}
       <div className={classNames(styles.indicators)}>
         {testimonialData.map((_, index) => (

@@ -18,10 +18,10 @@ function Products({ productPage, white = false }: ProductsProps) {
           [styles.white]: white,
         })}
       >
-        <div className={classNames(styles.productHeader)}>
+        <section className={classNames(styles.productHeader)}>
           <Header1 content="WISEflow" center />
           <Header2 content="End-to-end digital assessment platform" />
-        </div>
+        </section>
         <ProductLogo product="WISEflow" width={12.1875} />
         <ul>
           <li>Assessment creation tools</li>
@@ -46,10 +46,10 @@ function Products({ productPage, white = false }: ProductsProps) {
           [styles.white]: white,
         })}
       >
-        <div className={classNames(styles.productHeader)}>
+        <section className={classNames(styles.productHeader)}>
           <Header1 content="Originality" center />
           <Header2 content="AI-Powered Plagiarism Detection" />
-        </div>
+        </section>
         <ProductLogo product="Originality" width={10.3125} />
         <ul>
           <li>Semantic similarity scanning</li>

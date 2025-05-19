@@ -8,9 +8,9 @@ import { Button } from "../small/Button/Button";
 import WiseflowAndOriginality from "../../assets/images/wiseflow+originality.svg";
 const WISEflowAndOriginality = forwardRef<HTMLDivElement>(({}, ref) => {
   return (
-    <div className={classNames(styles.wiseflowAndOriginality)} ref={ref}>
+    <section className={classNames(styles.wiseflowAndOriginality)} ref={ref}>
       <div className={classNames(styles.left)}>
-        <div className={classNames(styles.text)}>
+        <article className={classNames(styles.text)}>
           <Header1 white content="WISEflow and Originality"></Header1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac massa
@@ -22,7 +22,7 @@ const WISEflowAndOriginality = forwardRef<HTMLDivElement>(({}, ref) => {
             maximus sem. Curabitur nibh metus, posuere et blandit at, tincidunt
             id dui.
           </p>
-        </div>
+        </article>
         <Button
           left
           inverted
@@ -35,7 +35,7 @@ const WISEflowAndOriginality = forwardRef<HTMLDivElement>(({}, ref) => {
         alt="The circle of WISEflow and Originality"
         className={classNames(styles.image)}
       />
-    </div>
+    </section>
   );
 });
 

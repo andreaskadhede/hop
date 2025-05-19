@@ -28,7 +28,7 @@ const AboutAndBlog = forwardRef<HTMLDivElement>((_, ref) => {
 
   return (
     <div className={classNames(styles.aboutContainer)} ref={ref}>
-      <div className={classNames(styles.about, "greySideBox")}>
+      <section className={classNames(styles.about, "greySideBox")}>
         <Header1 content="About UNIwise"></Header1>
         <div className={classNames(styles.text)}>
           <p>
@@ -51,13 +51,13 @@ const AboutAndBlog = forwardRef<HTMLDivElement>((_, ref) => {
             <li>At peak times, over 90,000 users on WISEflow simultaneously</li>
           </ul>
         </div>
-      </div>
+      </section>
       <div className={classNames(styles.blog)}>
-        <div className={classNames(styles.blogPosts)}>
+        <article className={classNames(styles.blogPosts)}>
           {blogposts.map((blogpost: BlogpostData, index: number) => (
             <Blogpost key={`blogpost${index}`} blogpost={blogpost} />
           ))}
-        </div>
+        </article>
         <Button content="Read more blogposts"></Button>
       </div>
     </div>

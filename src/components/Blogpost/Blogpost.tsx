@@ -21,7 +21,7 @@ export type BlogpostData = {
 const Blogpost = forwardRef<HTMLDivElement, { blogpost: BlogpostData }>(
   ({ blogpost }, ref) => {
     return (
-      <div ref={ref} className={classNames(styles.blogpost)}>
+      <article ref={ref} className={classNames(styles.blogpost)}>
         <img
           src={blogpost.acf.image}
           alt={blogpost.title.rendered}
@@ -32,7 +32,7 @@ const Blogpost = forwardRef<HTMLDivElement, { blogpost: BlogpostData }>(
           <Header2 content={blogpost.acf.header}></Header2>
           <p>{blogpost.acf.text}</p>
         </div>
-      </div>
+      </article>
     );
   }
 );

@@ -34,8 +34,8 @@ function HomePage() {
       </div>
       <WISEcon25 />
       <Separator />
-      <div className={classNames(styles.factsContainer)}>
-        <div className={classNames(styles.header)}>
+      <section className={classNames(styles.factsContainer)}>
+        <article className={classNames(styles.header)}>
           <Header1 content="More effective and authentic assessment" center />
           <p>
             WISEflow supports and handles the full workflow of assessments
@@ -43,7 +43,7 @@ function HomePage() {
             supporting the transformation of the assessment and feedback
             lifecycle for students, test writers, assessors and administrators.
           </p>
-        </div>
+        </article>
         <div className={classNames(styles.facts, "greyBox")}>
           <Facts page="home" small />
           <Button
@@ -52,7 +52,7 @@ function HomePage() {
           ></Button>
         </div>
         <Partners />
-      </div>
+      </section>
       <Separator />
 
       <AboutAndBlog />

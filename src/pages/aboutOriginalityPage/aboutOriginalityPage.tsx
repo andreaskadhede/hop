@@ -30,7 +30,7 @@ function AboutOriginalityPage() {
       <HowItWorks page="Originality" />
 
       <Separator />
-      <div>
+      <section>
         <Header1 content="Main Capabilities" center />
         <TextBlockWithImage
           imageSrc={placeholder}
@@ -76,7 +76,7 @@ function AboutOriginalityPage() {
             adipisci corrupti. Inventore molestiae illo cumque fugit tempore.
           </p>
         </TextBlockWithImage>
-      </div>
+      </section>
 
       <Slider
         slider1={{

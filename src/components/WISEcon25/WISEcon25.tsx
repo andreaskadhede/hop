@@ -17,10 +17,10 @@ const WISEcon25 = () => {
 
       <div className={classNames(styles.right)}>
         <div className={classNames(styles.text)}>
-          <div className={classNames(styles.header)}>
+          <article className={classNames(styles.header)}>
             <Header1 content="WISEcon25"></Header1>
             <Header2 content="Barbican Centre, London, UK Tuesday 23 - Wednesday 24 September"></Header2>
-          </div>
+          </article>
           <p>
             WISEcon25, a two-day event hosted and curated by UNIwise, brings
             together people who are passionate about learning technology across

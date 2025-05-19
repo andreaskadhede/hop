@@ -15,11 +15,11 @@ const WhereWeWork = forwardRef<HTMLDivElement>(({}, ref) => {
   const [image, setImage] = useState<string>(clear);
 
   return (
-    <div className={classNames(styles.whereWeWork)} ref={ref}>
+    <article className={classNames(styles.whereWeWork)} ref={ref}>
       <Header1 content="Where We Work" />
       <div className={classNames(styles.mapWithBoxes)}>
         <div className={classNames(styles.areas)}>
-          <div
+          <section
             className={classNames(styles.area)}
             onMouseEnter={() => setImage(nordic)}
             onMouseLeave={() => setImage(clear)}
@@ -31,8 +31,8 @@ const WhereWeWork = forwardRef<HTMLDivElement>(({}, ref) => {
               institutions such as Aarhus University, Copenhagen Business
               Academy and BI Norwegian Business School.
             </p>
-          </div>
-          <div
+          </section>
+          <section
             className={classNames(styles.area)}
             onMouseEnter={() => setImage(UK)}
             onMouseLeave={() => setImage(clear)}
@@ -44,8 +44,8 @@ const WhereWeWork = forwardRef<HTMLDivElement>(({}, ref) => {
               education institutions such as UCL, University of Bedfordshire and
               Brunel University London.
             </p>
-          </div>
-          <div
+          </section>
+          <section
             className={classNames(styles.area)}
             onMouseEnter={() => setImage(europe)}
             onMouseLeave={() => setImage(clear)}
@@ -57,8 +57,8 @@ const WhereWeWork = forwardRef<HTMLDivElement>(({}, ref) => {
               School of Management, the University of Malta and Universidade
               Aberta.
             </p>
-          </div>
-          <div
+          </section>
+          <section
             className={classNames(styles.area)}
             onMouseEnter={() => setImage(DACH)}
             onMouseLeave={() => setImage(clear)}
@@ -70,12 +70,12 @@ const WhereWeWork = forwardRef<HTMLDivElement>(({}, ref) => {
               institutions such as Erfurt University and Hochschule Worms. We
               are continuing to expand across the sector.
             </p>
-          </div>
+          </section>
         </div>
 
         <img src={image} alt="map" className={classNames(styles.image)} />
       </div>
-    </div>
+    </article>
   );
 });
 
